@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Detection</title>
+</head>
+<body>
+    <h1>Color Detection</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <label for="canvas-width">Canvas Width:</label>
+    <input type="number" id="canvas-width" value="640">
+    <label for="canvas-height">Canvas Height:</label>
+    <input type="number" id="canvas-height" value="480">
+    <button id="update-canvas-size">Update Canvas Size</button>
+    <p id="color-info"></p>
+    <script src="color-detection.js"></script>
+</body>
+</html>
